@@ -1,0 +1,31 @@
+.table__cell{
+    background:#262525;
+    color:#fff;
+    border:none;
+}
+
+.box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+}
+
+.box__button_edit{
+    color:green;
+    margin: 0.2rem 2rem;
+}
+.box__button_edit:hover{
+    color:white;
+    background:green;
+}
+
+.box__button_delete{
+    color:red;
+    margin: 0.2rem 2rem;
+}
+
+.box__button_delete:hover{
+    color:white;
+    background:red;
+}

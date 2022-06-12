@@ -1,0 +1,25 @@
+p{
+    margin:0;
+    padding-bottom: 0.2rem;
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    padding:1rem 1.5rem;
+    margin-top:2.5vh;
+    margin-bottom:5vh;
+    margin-left:1rem;
+    margin-right:1rem;
+    color: #fff;
+    background-color: #262525;
+    border-radius: 1rem;
+}
+
+.categories__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding:1.5rem 1rem 0.5rem 0rem;
+    border-bottom: 1px solid rgba(141, 139, 139, 0.599);
+}

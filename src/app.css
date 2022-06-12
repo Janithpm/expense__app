@@ -1,0 +1,28 @@
+.App{
+    position: relative;
+    width:100%;
+    background:#1a1a1a;
+}
+
+.container__left{
+    width:100%;
+    background:red;
+}
+
+.container__right{
+    width:100%;
+    background:blue;
+}
+
+.floating__button{
+    position:absolute;
+    right:5%;
+    bottom:8%;
+    transform-origin:center;
+}
+
+/* .floating__button:hover{
+    transform:scale(1.03)
+} */
+
+

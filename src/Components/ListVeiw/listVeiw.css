@@ -1,0 +1,13 @@
+.no__scroll_bar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no__scroll_bar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+
+.table__cell{
+    background:#262525;
+    color:#fff;
+}

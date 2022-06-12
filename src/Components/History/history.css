@@ -1,0 +1,41 @@
+.history{
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    padding:2rem 2.5rem;
+    margin: 5vh 1rem;
+    color: #fff;
+    background-color: #262525;
+    border-radius: 1rem;
+
+}
+
+
+.history__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history__nav div{
+    width:100%;
+    display: flex;
+    justify-content:center;
+    padding:0.4rem 0;
+    margin-bottom:1rem;
+}
+
+.history__nav div::hover{
+    color: rgb(50, 48, 123);
+            border-bottom: 2px solid rgb(50, 48, 123);
+}
+
+
+
+.tab{
+    border-bottom: 2px solid rgb(197, 197, 197);
+}
+.active{
+    color: rgb(50, 48, 123);
+    border-bottom: 2px solid rgb(50, 48, 123);
+}

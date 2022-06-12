@@ -1,0 +1,22 @@
+.total__card{
+    display: flex;
+    flex-direction: column;
+    padding:1rem 1.5rem;
+    margin-top:5vh;
+    margin-bottom:2.5vh;
+    margin-left:1rem;
+    margin-right:1rem;
+    color: #fff;
+    background-color: rgb(50, 48, 123) !important;
+    border-radius: 1rem;
+}
+
+
+.total__spendAndIncome{
+    width:100%;
+    margin-top:1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
